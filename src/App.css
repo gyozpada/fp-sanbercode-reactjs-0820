@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#daftar {
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 5px solid rgb(170,170,170);
+  width: 100%;
+  color: black;
+
+}
+
+#daftar td, #daftar th {
+  border: 2px solid #ddd;
+}
+
+#daftar tr:nth-child(even){background-color: #2EADE1;}
+#daftar tr:nth-child(odd){background-color: #2EADE1;}
+
+#daftar tr:hover {background-color: #ddd;}
+
+#daftar th {
+  text-align: center;
+  background-color: rgb(170,170,170);
+  color: black;
 }

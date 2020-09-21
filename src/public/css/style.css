@@ -1,0 +1,72 @@
+body {
+    /* background-image: url(../img/pattern.jpg); */
+    background-color: white;
+    font-family: 'Slabo 27px', serif;
+    margin: 0px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #3F51B5;
+    color: white;
+    height: 50px;
+    justify-content: justify;
+    align-items: justify;
+}
+
